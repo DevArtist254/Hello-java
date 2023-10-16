@@ -1,6 +1,8 @@
 public class SecClass {
     public static void main(String[] args) {
-        System.out.println("Hello, Lord");
+        boolean hey = false;
+
+        System.out.println(hey);
         System.out.println("Hello, Kevin");
     }
 }
