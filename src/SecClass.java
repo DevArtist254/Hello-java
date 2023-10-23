@@ -35,7 +35,7 @@ public class SecClass {
 
         //The ternary operator allows us to store values use our qn logic
         String makeOfCar = "Volks";
-        boolean isDomestic = (makeOfCar == "Volks") ? false : true;
+        boolean isDomestic = makeOfCar != "Volks";
 
         if (isDomestic) System.out.println("Your car is not for this country");
     }
