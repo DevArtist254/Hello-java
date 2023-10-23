@@ -11,7 +11,7 @@ public class FirstClass {
         int topScore = 100;
 
         //Logic questions ask qns for diff logic situation
-        if (topScore > 100) {
+        if (100 < topScore) {
             System.out.println(topScore);
         }
 
